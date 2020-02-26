@@ -63,6 +63,10 @@ section {
   /* overflow: scroll; */
 }
 
+.section_header {
+  padding: 15px 0 0 0;
+}
+
 .section_para {
   padding: 15px;
   line-height: 133%;
