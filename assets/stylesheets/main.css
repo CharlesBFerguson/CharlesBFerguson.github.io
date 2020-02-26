@@ -18,10 +18,12 @@ header {
   top: 0px;
   height: 100px;
   width: 100%;
-  background: rgb(0, 166, 255);
+  background: rgb(0,165,255) url("../tile_01.jpg");
+  /* background: rgb(0,165,255);
+  background-image: url("../tile_01.jpg"); */
   color: #fff;
   font-size: larger;
-  font-family: "Fascinate Inline", Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Fascinate Inline', Georgia, 'Times New Roman', Times, serif;
   padding: 15px 15px;
   border-radius: 30px 30px 0 0;
 }
@@ -37,19 +39,12 @@ aside {
   height: 100vh;
   width: 20%;
   margin: 100px auto;
-  background: rgb(120, 222, 11);
-  
-}
-
-nav {
+  background: rgb(120,222,11);
+} nav {
   padding: 15px;
-}
-
-ul {
+} ul {
   padding: 6px 0 0 15px;
-  }
-
-li {
+} li {
   line-height: 150%;
 }
 
@@ -58,16 +53,12 @@ section {
   height: 100vh;
   width: 80%;
   margin: 100px auto;
-  background: rgb(255, 160, 0);
+  background: rgb(255,160,0);
   padding: 15px;
   /* overflow: scroll; */
-}
-
-.section_header {
+} .section_header {
   padding: 15px 0 0 0;
-}
-
-.section_para {
+} .section_para {
   padding: 15px;
   line-height: 133%;
 }
@@ -79,7 +70,9 @@ footer {
   left: 0;
   right: 0;
   height: 50px;
-  background: rgb(0, 166, 255);
+  background: rgb(0,165,255) url("../tile_01.jpg");
+  /* background: rgb(0,165,255);
+  background-image: url("../tile_01.jpg"); */
   color: #fff;
   padding: 15px;
   border-radius: 0 0 30px 30px;
