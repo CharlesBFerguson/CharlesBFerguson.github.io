@@ -18,9 +18,8 @@ header {
   top: 0px;
   height: 100px;
   width: 100%;
-  /* background: rgb(0,165,255) url("../tile_01.jpg"); */
   background: rgb(0,165,255);
-  /* background-image: url("../tile_01.jpg"); */
+  background: linear-gradient(to right, rgb(0,165,255), rgb(147, 217, 255));
   color: #fff;
   font-size: larger;
   font-family: 'Fascinate Inline', Georgia, 'Times New Roman', Times, serif;
